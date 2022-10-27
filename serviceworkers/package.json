@@ -1,0 +1,16 @@
+{
+  "name": "serviceworkers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "generate:keys": "web-push generate-vapid-keys",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-push": "^3.5.0"
+  }
+}
